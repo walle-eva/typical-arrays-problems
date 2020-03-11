@@ -1,7 +1,7 @@
 
 exports.min = function min (array) {
   let min = Infinity;
-    for(let i = 0; i , array.length; i++){
+    for(let i = 0; i < array.length; i++){
       if(array[i] < min){
         min = array[i]
       }
@@ -20,9 +20,9 @@ exports.max = function max (array) {
 }
 
 exports.avg = function avg (array) {
-  let suma = 0;
+  let summa = 0;
     for(let i = 0; i < array.length; i++){
-      summa += arr[i]
+      summa += array[i]
     }
     return summa/array.length;
 }
